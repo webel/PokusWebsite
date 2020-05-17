@@ -1,0 +1,17 @@
+.basebox {
+  width: 100%;
+  text-align: center;
+}
+.base {
+  font-family: Dancing Script;
+  font-size: 6rem;
+  transition: all 0.5s 0.2s;
+}
+
+@media (max-width: 650px) {
+  .base {
+    font-size: 5rem;
+    font-weight: 400;
+    margin: 5px;
+  }
+}

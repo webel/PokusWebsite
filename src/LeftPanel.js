@@ -9,43 +9,10 @@ import Features from "./Features";
 import Footer from "./Footer";
 
 const LeftPanel = () => {
-  const [toTop, setTop] = useState(false);
-  // const [isMobile, setMobile] = useState(false);
-
-  // NOTE: Below, and state above, will be used to switch the Pokus position,
-  // such that it's shown first on mobile.
-  // function checkViewport() {
-  //   if (window.innerWidth > 630) {
-  //     setMobile(false);
-  //   } else {
-  //     setMobile(true);
-  //   }
-  // }
-
-  // useEffect(() => {
-  //   checkViewport();
-  //   let timeout = false;
-  //   window.addEventListener("resize", () => {
-  //     clearTimeout(timeout);
-  //     timeout = setTimeout(checkViewport, 250);
-  //   });
-  // }, []);
-
-  function onInfoScroll(val = window.scrollY) {
-    if (val > 50) {
-      setTop(true);
-    } else {
-      setTop(false);
-    }
-  }
-  console.log(process.env.PUBLIC_URL);
   return (
     <Router basename={process.env.PUBLIC_URL}>
-      <div
-        className={styles.panel}
-        onScroll={(event) => onInfoScroll(event.target.scrollTop)}
-      >
-        <Header snap={toTop} />
+      <div className={`${styles.panel} ${styles.left}`}>
+        <Header />
         <Switch>
           <Route path="/features">
             <Features />
@@ -58,7 +25,7 @@ const LeftPanel = () => {
           </Route>
         </Switch>
         <br />
-        <Footer onNavClick={() => setTop(false)} />
+        <Footer />
       </div>
     </Router>
   );
