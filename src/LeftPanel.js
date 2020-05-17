@@ -40,7 +40,7 @@ const LeftPanel = () => {
   }
 
   return (
-    <Router>
+    <Router basename="/PokusWebsite">
       <div
         class={styles.panel}
         onScroll={(event) => onInfoScroll(event.target.scrollTop)}
