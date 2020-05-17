@@ -2,7 +2,7 @@ import React from "react";
 
 const GetInTouch = () => {
   return (
-    <div>
+    <div style={styles}>
       <h3>
         Send us an email on
         <a className="contact-us" href="mailto:info@pokus.rocks">
@@ -26,6 +26,15 @@ const GetInTouch = () => {
       </p>
     </div>
   );
+};
+
+let styles = {
+  "@media (maxWidth: 800px)": {
+    marginLeft: "2%",
+    marginRight: "2%",
+  },
+  marginLeft: "10%",
+  marginRight: "10%",
 };
 
 export default GetInTouch;
