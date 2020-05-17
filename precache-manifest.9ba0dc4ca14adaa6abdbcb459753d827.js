@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "74c8b42b7a8d62e90627c4264fae6a91",
+    "revision": "29a4e20ba6daa251d59d35cb5103f3d3",
     "url": "/PokusWebsite/index.html"
   },
   {
-    "revision": "94378a117afaf9358472",
-    "url": "/PokusWebsite/static/css/main.5441e56f.chunk.css"
+    "revision": "02218717afcab141b80c",
+    "url": "/PokusWebsite/static/css/main.5f011978.chunk.css"
   },
   {
-    "revision": "5c51ab0be3f59bab7c2c",
-    "url": "/PokusWebsite/static/js/2.a34345d2.chunk.js"
+    "revision": "de78ebd8b4a0347629a7",
+    "url": "/PokusWebsite/static/js/2.359cf968.chunk.js"
   },
   {
-    "revision": "5bd09eb7f2cf4d145d532d862be18942",
-    "url": "/PokusWebsite/static/js/2.a34345d2.chunk.js.LICENSE.txt"
+    "revision": "5a1768750c09c8fadbc94e74a41bcc3a",
+    "url": "/PokusWebsite/static/js/2.359cf968.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "94378a117afaf9358472",
-    "url": "/PokusWebsite/static/js/main.81b16db1.chunk.js"
+    "revision": "02218717afcab141b80c",
+    "url": "/PokusWebsite/static/js/main.7913b29f.chunk.js"
   },
   {
     "revision": "e587f87be21d74366f9c",
