@@ -1,4 +1,5 @@
-import React, { PropTypes } from "react";
+import React from "react";
+import PropTypes from "prop-types";
 import Radium from "radium";
 
 let styles = {
@@ -35,5 +36,9 @@ const Header = (props) => (
     <h1 style={[props.snap ? styles.scrolling : styles.base]}> Pokus </h1>
   </div>
 );
+
+Header.propTypes = {
+  snap: PropTypes.bool,
+};
 
 export default Radium(Header);

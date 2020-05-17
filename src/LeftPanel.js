@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import React, { useState } from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import styles from "./Panel.module.css";
 import About from "./About";
@@ -10,15 +10,26 @@ import Footer from "./Footer";
 
 const LeftPanel = () => {
   const [toTop, setTop] = useState(false);
-  const [isMobile, setMobile] = useState(false);
+  // const [isMobile, setMobile] = useState(false);
 
-  function checkViewport() {
-    if (window.innerWidth > 630) {
-      setMobile(false);
-    } else {
-      setMobile(true);
-    }
-  }
+  // NOTE: Below, and state above, will be used to switch the Pokus position,
+  // such that it's shown first on mobile.
+  // function checkViewport() {
+  //   if (window.innerWidth > 630) {
+  //     setMobile(false);
+  //   } else {
+  //     setMobile(true);
+  //   }
+  // }
+
+  // useEffect(() => {
+  //   checkViewport();
+  //   let timeout = false;
+  //   window.addEventListener("resize", () => {
+  //     clearTimeout(timeout);
+  //     timeout = setTimeout(checkViewport, 250);
+  //   });
+  // }, []);
 
   function onInfoScroll(val = window.scrollY) {
     if (val > 50) {
@@ -27,15 +38,6 @@ const LeftPanel = () => {
       setTop(false);
     }
   }
-
-  useEffect(() => {
-    checkViewport();
-    let timeout = false;
-    window.addEventListener("resize", () => {
-      clearTimeout(timeout);
-      timeout = setTimeout(checkViewport, 250);
-    });
-  }, []);
 
   return (
     <Router>

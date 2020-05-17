@@ -1,4 +1,4 @@
-import React, { PropTypes } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import Radium from "radium";
 import Variables from "./Variables";
@@ -155,7 +155,11 @@ const Features = (props) => {
 
         <h3 style={styles.right}>Focus in the front</h3>
 
-        <img style={styles.img} src="../assets/test.png" />
+        <img
+          style={styles.img}
+          src="../assets/test.png"
+          alt="Pokus device on computer"
+        />
 
         <div style={styles.content}>
           <h4 style={styles.nugget}>Press the button and your away</h4>
@@ -246,7 +250,11 @@ const Features = (props) => {
           </h4>
         </div>
 
-        <img style={styles.img} src="../assets/world_red3.png" />
+        <img
+          style={styles.img}
+          src="../assets/world_red3.png"
+          alt="Pokus device from the back"
+        />
       </div>
     </div>
   );

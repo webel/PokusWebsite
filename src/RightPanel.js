@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 
-import Header from "./Header";
 import { Pokus } from "./features/pokus/Pokus";
 import styles from "./Panel.module.css";
 

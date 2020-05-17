@@ -62,8 +62,8 @@ class CountdownTimer extends React.Component {
 
   componentWillReceiveProps(newProps) {
     if (
-      newProps.focus != this.props.focus ||
-      newProps.rest != this.props.rest
+      newProps.focus !== this.props.focus ||
+      newProps.rest !== this.props.rest
     ) {
       if (this.state.timeoutId) {
         clearTimeout(this.state.timeoutId);
