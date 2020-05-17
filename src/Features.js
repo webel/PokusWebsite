@@ -167,7 +167,7 @@ const Features = (props) => {
           />
 
           <div style={styles.content}>
-            <h4 style={styles.nugget}>Press the button and your away</h4>
+            <h4 style={styles.nugget}>Press the button and you're away</h4>
             <h5>
               {" "}
               Pokus keeps it simple, all you need to do is press the button.
@@ -206,7 +206,7 @@ const Features = (props) => {
               {" "}
               <i style={styles.distractedUser}>
                 {" "}
-                So, it's basicallt a fancy timer with a clip?{" "}
+                So, it's basically a fancy timer with a clip?{" "}
               </i>{" "}
             </h5>
             <h5>
