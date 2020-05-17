@@ -1,20 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 
 import { Pokus } from "./features/pokus/Pokus";
 import styles from "./Panel.module.css";
 
 const RightPanel = () => {
-  // const [isExpanded, setExpanded] = useState(false);
-
-  // const widthStyle = isExpanded ? styles.full : styles.half;
-
   return (
-    // TODO: remove StyleRoot, can be done when the rest of radium
-    // classes have been converted to css module
-    <div
-      className={`${styles.panel} ${styles.right}`}
-      //onDoubleClick={() => setExpanded(!isExpanded)}
-    >
+    <div className={`${styles.panel} ${styles.right}`}>
       <Pokus />
     </div>
   );
