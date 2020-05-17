@@ -25,7 +25,6 @@ export function Pokus() {
   const numLights = 8;
 
   return (
-    // TODO: when LightLayout is off, the Pokus is misaligned
     <>
       <div className={styles.lens}>
         <Button onClick={() => dispatch(toggle())} />
