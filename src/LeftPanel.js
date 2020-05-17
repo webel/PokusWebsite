@@ -42,7 +42,7 @@ const LeftPanel = () => {
   return (
     <Router basename="/PokusWebsite">
       <div
-        class={styles.panel}
+        className={styles.panel}
         onScroll={(event) => onInfoScroll(event.target.scrollTop)}
       >
         <Header snap={toTop} />
