@@ -1,68 +1,44 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+# [Pokus](https://webel.github.io/Pokus)
+**This repository contains a frontend demo for the Pokus accompanying app.**
 
-## Available Scripts
+<figure align="center">
+<img src="public/assets/test.png" width="450px" alt="Device on computer" />
+<figcaption><i> The Pokus device on a computer. </i></figcaption>
+</figure>
 
-In the project directory, you can run:
+~~See Pokus [homepage](http://139.59.169.28:8080) for a description of *what Pokus is*.~~
 
-### `npm start`
+**Homepage currently unavailable (scroll down for app demo and description)**, it used to be hosted over at digitalocean before I understood the absurdity of hosting a static page on a droplet (lol).
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<figure align="center">
+<img src="https://www.monkeyuser.com/assets/images/2019/123-yagni.png" width="400px" alt="YAGNI by monkeyuser.com" />
+<figcaption><i>Somewhat related meme.</i></figcaption>
+</figure>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+I am, as of today (15th of May 2020), adding the homepage here so that potential employers can see that I've actually coded something. Even if it's a cast together prototype I did several years ago, I hope with this repo to showcase how far I've come in those years (honestly, it's a bloody mess opening this can of worms up, which is understandable – it was my first React project, and I did it in under 4 days).
 
-### `npm test`
+---
+## TODO
+[ ] React router, the currently hosted demo will be moved to /app, whereas the index will be the homepage.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[ ] Copy over the homepage from the old repo (possibly push the old repo just to underline how much simpler I've been able to do this today).
 
-### `npm run build`
+[ ] Maybe, if not doing a front-end for Matsmart is more fun, test out styled-systems here... It seems awfully enjoyable.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[ ] Possibly make this a full-fledged app, with node on the backend and showcase; SocketIO, authentication etc...
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## [Demo](https://webel.github.io/Pokus)
+See Pokus demo [here](https://webel.github.io/Pokus).
 
-### `npm run eject`
+This demo is a simple react app that gives an idea of what the Pokus app connected to several devices would look like when used in an open office enviroment, or really any team enviroment where concentration is valued.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Using the virtual Pokus device
+**Start/Stop** the Pokus device by pressing the big gray button in the middle!
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Update timer** by clicking on the timer and entering the number of minutes you would like to focus. Pokus will automatically set your rest time to a fifth of your focus time - as recommended by the pomodoro technique. *Note* that the device can't be running to update the timer.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+**See user panel** by dubbel-clicking anywhere on the background, the userpanel to the right of the device will become visible. On mobile, simply scroll past the virutal device to see the panel.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+**See time left for user** by hovering over a users logo.

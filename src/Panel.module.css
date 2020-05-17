@@ -1,0 +1,79 @@
+.panel {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: scroll;
+
+  animation: x 5s;
+  animation-name: fadeIn;
+
+  background: linear-gradient(-180deg, #fff 0, ivory 100%);
+}
+
+.half {
+  width: 50%;
+  transition: width 0.5s ease-in;
+}
+.full {
+  width: 100%;
+  transition: width 0.5s ease-in;
+}
+
+.right {
+  animation: x 120s infinite linear;
+  animation-name: backgroundChange;
+}
+
+@media (max-width: 630px) {
+  .panel {
+    width: 100%;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes backgroundChange {
+  0% {
+    background: rgba(79, 184, 252, 0.7);
+  }
+  10% {
+    background: rgba(79, 252, 230, 0.7);
+  }
+  20% {
+    background: rgba(76, 227, 118, 0.7);
+  }
+  30% {
+    background: rgba(247, 229, 84, 0.7);
+  }
+  40% {
+    background: rgba(252, 185, 79, 0.7);
+  }
+  50% {
+    background: rgba(252, 185, 79, 0.7);
+  }
+  60% {
+    background: rgba(252, 79, 79, 0.7);
+  }
+  70% {
+    background: rgba(252, 79, 173, 0.7);
+  }
+  80% {
+    background: rgba(180, 79, 252, 0.7);
+  }
+  90% {
+    background: rgba(79, 111, 252, 0.7);
+  }
+  100% {
+    background: rgba(79, 184, 252, 0.7);
+  }
+}

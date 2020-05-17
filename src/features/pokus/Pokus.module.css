@@ -1,0 +1,40 @@
+.encapsulator {
+  position: relative;
+  /* top: 7%;
+  right: -47%; */
+}
+
+.shadow {
+  width: 230px;
+  margin: 30px 0 0 0px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.3);
+  animation: x 9s 3s both;
+  animation-name: fade;
+}
+
+.lens {
+  border-radius: 50%;
+
+  width: 224px;
+  height: 224px;
+
+  margin-top: 15px;
+  animation: x ease-in 5s both;
+  animation-name: fade;
+  animation-delay: 0s;
+  opacity: 0;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAAS0lEQVQYV42PMQ4AIAgDyy7/fyjuGogYFExkgnKBlrjxQCjpAm4cJespgg5V8Abv5T0b+HoXdQIwKk9u0uHDY0qwBIW/wJT6dVH1CZzOJAuMdT5xAAAAAElFTkSuQmCC)
+    repeat;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.4);
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.9;
+  }
+}

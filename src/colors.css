@@ -1,0 +1,8 @@
+:root {
+  --base: rgba(62, 78, 80, 1);
+  --lighter: rgba(62, 78, 80, 0.8);
+  --color-rust-approx: #b5441b;
+  --color-manatee-approx: #8a93a5;
+  --color-manatee-60-approx: rgba(138, 147, 165, 0.6);
+  --color-french-gray-appoax: #bbc0cb;
+}
