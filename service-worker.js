@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/PokusWebsite/precache-manifest.ed35a26f0ea02162450198a32965b52e.js"
+  "/PokusWebsite/precache-manifest.ab5a1ae7e71f45ff3ee0b15d9cd2e3fc.js"
 );
 
 self.addEventListener('message', (event) => {
