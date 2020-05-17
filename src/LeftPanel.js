@@ -38,9 +38,9 @@ const LeftPanel = () => {
       setTop(false);
     }
   }
-
+  console.log(process.env.PUBLIC_URL);
   return (
-    <Router basename="/PokusWebsite">
+    <Router basename={process.env.PUBLIC_URL}>
       <div
         className={styles.panel}
         onScroll={(event) => onInfoScroll(event.target.scrollTop)}
