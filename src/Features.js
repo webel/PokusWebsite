@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Radium from "radium";
 import Variables from "./Variables";
+import pokusOnComputer from "./assets/pokus-on-computer.png";
+import pokusBack from "./assets/pokus-back.png";
 
 let pulse = Radium.keyframes({
   "0%": {
@@ -157,7 +159,7 @@ const Features = (props) => {
 
         <img
           style={styles.img}
-          src="../assets/test.png"
+          src={pokusOnComputer}
           alt="Pokus device on computer"
         />
 
@@ -252,7 +254,7 @@ const Features = (props) => {
 
         <img
           style={styles.img}
-          src="../assets/world_red3.png"
+          src={pokusBack}
           alt="Pokus device from the back"
         />
       </div>
