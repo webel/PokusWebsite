@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2c62a96071a6be6e11f3ff50ddcb73eb",
+    "revision": "2c0c74502f3bbbe142ee18da3486aae4",
     "url": "/PokusWebsite/index.html"
   },
   {
-    "revision": "126d12e8059aa2a673a8",
+    "revision": "c72eb392fc921076d9a0",
     "url": "/PokusWebsite/static/css/main.5f011978.chunk.css"
   },
   {
-    "revision": "de78ebd8b4a0347629a7",
-    "url": "/PokusWebsite/static/js/2.359cf968.chunk.js"
+    "revision": "4ef4df7d3c5bb529336d",
+    "url": "/PokusWebsite/static/js/2.2a0e0505.chunk.js"
   },
   {
     "revision": "5a1768750c09c8fadbc94e74a41bcc3a",
-    "url": "/PokusWebsite/static/js/2.359cf968.chunk.js.LICENSE.txt"
+    "url": "/PokusWebsite/static/js/2.2a0e0505.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "126d12e8059aa2a673a8",
-    "url": "/PokusWebsite/static/js/main.dbbfe353.chunk.js"
+    "revision": "c72eb392fc921076d9a0",
+    "url": "/PokusWebsite/static/js/main.9e02753f.chunk.js"
   },
   {
     "revision": "e587f87be21d74366f9c",
