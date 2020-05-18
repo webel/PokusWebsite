@@ -20,6 +20,9 @@ export const pokus = createSlice({
       // Toggle the Pokus on or off.
       state.focus = !(state.focus || state.rest);
       state.rest = false;
+      if (!state.interval) {
+        state.interval = 5;
+      }
     },
     // Update the focusing time
     update: (state, action) => {
